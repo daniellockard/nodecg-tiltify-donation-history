@@ -1,0 +1,32 @@
+{
+  "name": "nodecg-tiltify-donation-history",
+  "version": "0.0.0",
+  "description": "Tiltify Donation History",
+  "homepage": "",
+  "author": {
+    "name": "Danny Lockard",
+    "email": "danielhlockard@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "dashboard"
+  ],
+  "keywords": [
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "bundleDependencies": {
+      "nodecg-tiltify": "^0.0.0"
+    },
+    "compatibleRange": "^1.1.1",
+    "dashboardPanels": [
+      {
+        "name": "donation-history",
+        "title": "Donation History",
+        "file": "donation-history.html",
+        "fullbleed": true,
+        "headerColor": "#525F78"
+      }
+    ]
+  }
+}
