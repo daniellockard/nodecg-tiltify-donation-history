@@ -21,7 +21,7 @@
     "compatibleRange": "^1.1.1",
     "dashboardPanels": [
       {
-        "name": "donation-history",
+        "name": "Donation History",
         "title": "Donation History",
         "file": "donation-history.html",
         "fullbleed": true,
