@@ -559,7 +559,7 @@
 		var allDonationsRep = nodecg.Replicant("alldonations", "nodecg-tiltify");
 		allDonationsRep.on("change", function (newvalue, oldvalue) {
 			donations = newvalue;
-			//alldonationstable.clear().draw();
+			alldonationstable.clear();
 			var allDonationsArray = [];
 			var allDonationIds = [];
 			for (let i = 0; i < newvalue.length; i++) {
